@@ -1,8 +1,21 @@
-﻿body {
-}
-
-.title{
+﻿.title{
     border-color: black;
     border:dashed;
     text-align:center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: black;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 350px;
 }
